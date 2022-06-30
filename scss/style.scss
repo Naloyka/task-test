@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url("/font/Noto_Sans/NotoSans-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url("/font/Noto_Sans/NotoSans-Bold.ttf");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@import "./components/checkbox.scss";
+@import "./components/button__add.scss";
+@import "./components/select_option.scss";
+@import "./components/task__item";
+@import "./components/button__close.scss";
+@import "./components/input__add_task.scss";
+@import "./components/contact.scss";
+@import "./components/header__avtograph.scss";
+@import "./components/title__avtograph.scss";
+@import "./components/name__title.scss";
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*body*/
+
+body {
+    display: block;
+    margin: auto;
+    max-width: 768px;
+    width: 100%;
+    width: 100%;
+    font-family: Noto Sans;
+    min-height: 100vh;
+}
+
+.body {
+    display: block;
+    position: relative;
+    border-left: 3px solid #f4f4ff;
+    border-right: 3px solid  #f4f4ff;
+}
+
+
+/*Контейнер с контентом*/
+
+.main {
+    background-color: #f4f4ff;
+    display: block;
+    min-height: calc(100vh - 46px);
+    width: 100%;
+    height: 100%;
+    padding: 50px 22px;
+}

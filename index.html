@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Avtograph</title>
+    <link rel="stylesheet" href="scss/style.scss">
+</head>
+
+<body class="body">
+    <header class="header__todo">
+        <nav class="header__menu">
+            <div class="header__menu_main-information">
+             
+                <div class="title__avtograph">
+                    <h4 class="title__avtograpph__text"><a href="#" class="title__avtograph_link"
+                            translate="no">Adding and loading tasks</a></h4>
+                </div>
+            </div>
+            <div class="contact__avtograph">
+                <a href="mailto:avtograrh@mail.ru" class="contact__avtograph_mail">
+                    <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3_13)">
+                            <path
+                                d="M7.41611 6.66666L14.0833 3.27144V1.78829C14.0833 1.61893 14.0833 1.48148 14.0833 1.48148H0.75C0.75 1.48148 0.750009 1.61893 0.750009 1.78829V3.29414L7.41611 6.66666Z"
+                                fill="#171E29" />
+                            <path
+                                d="M7.53278 7.80425C7.495 7.82326 7.45555 7.83316 7.41667 7.83316C7.37833 7.83316 7.33889 7.82326 7.30111 7.80533L0.75 4.4661V11.8519C0.75 11.8519 0.874444 11.8519 1.02778 11.8519H13.8056C13.9583 11.8519 14.0833 11.8519 14.0833 11.8519V4.44446L7.53278 7.80425Z"
+                                fill="#171E29" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3_13">
+                                <rect width="13.3333" height="13.3333" fill="white" transform="translate(0.75)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="tel:890765445678" class="contact__avtograph_tel">
+                    <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.87474 7.01782C3.64652 7.01782 1.02008 10.0195 1.02008 13.7089C1.02008 13.8694 1.13413 13.9998 1.27464 13.9998H12.4749C12.6154 13.9998 12.7294 13.8694 12.7294 13.7089C12.7294 10.0195 10.103 7.01782 6.87474 7.01782Z"
+                            fill="#171E29" />
+                        <path
+                            d="M6.87489 6.40011C8.42132 6.40011 9.67494 4.9674 9.67494 3.20006C9.67494 1.43271 8.42132 0 6.87489 0C5.32847 0 4.07484 1.43271 4.07484 3.20006C4.07484 4.9674 5.32847 6.40011 6.87489 6.40011Z"
+                            fill="#171E29" />
+                    </svg>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container__select">
+            <h4 class="name__todo" translate="no">TASK LIST</h4>
+            <button class="btn__select">Все</button>
+            <div class="option__items" style="display: none;">
+                <div class="option" data-value="1"><a class="option__link">Все</a></div>
+                <div class="option" data-value="2"><a class="option__link">Выполненные</a></div>
+                <div class="option" data-value="3"><a class="option__link">В работе</a></div>
+            </div>
+        </div>
+
+        <div class="input__add-task">
+            <input type="text" class="input__add-task_entry-field" placeholder="Поле ввода">
+            <button class="button__add-task">
+                <span class="button__add-task_plus"></span>
+            </button>
+        </div>
+
+        <div class="paste__task"></div>
+
+    </main>
+    </div>
+
+    <script src='js/main.js'></script>
+</body>
+
+</html>
